@@ -31,7 +31,7 @@ scroll_speed = 2  # 地面滾動的速度
 flying = False  # 鳥的飛行狀態，初始為False
 game_over = False  # 遊戲結束狀態，初始為False
 
-pipe_gap = random.randint(80,200)  # 管道之間的間隔距離
+pipe_gap = random.randint(100,200)  # 管道之間的間隔距離
 pipe_frequency = 2000  # 生成管道的頻率，單位為毫秒
 last_pipe = pygame.time.get_ticks() - pipe_frequency  # 上一次生成管道的時間
 
